@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sindhu Ganesh Reddy KS | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #0f172a; color: #e5e7eb; line-height: 1.6; }
+    a { color: #38bdf8; text-decoration: none; }
+    header { padding: 40px 20px; text-align: center; background: #020617; }
+    header h1 { font-size: 2.2rem; margin-bottom: 10px; }
+    header p.title { font-size: 1rem; color: #9ca3af; margin-bottom: 15px; }
+    header .meta { font-size: 0.9rem; color: #9ca3af; }
+    header .links a { margin: 0 10px; font-size: 0.9rem; }
+    .container { max-width: 960px; margin: 0 auto; padding: 30px 20px 60px; }
+    section { margin-bottom: 40px; }
+    h2 { font-size: 1.4rem; margin-bottom: 15px; color: #f97316; border-bottom: 1px solid #1f2937; padding-bottom: 5px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .card { background: #020617; padding: 15px 18px; border-radius: 8px; border: 1px solid #1f2937; }
+    .tag { display: inline-block; padding: 3px 8px; margin: 3px 5px 0 0; border-radius: 999px; background: #111827; font-size: 0.8rem; }
+    ul { margin-left: 18px; margin-top: 8px; }
+    li { margin-bottom: 6px; }
+    .subheading { font-weight: bold; margin-top: 5px; }
+    .small { font-size: 0.85rem; color: #9ca3af; }
+    footer { text-align: center; padding: 15px; font-size: 0.8rem; color: #6b7280; border-top: 1px solid #1f2937; background: #020617; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sindhu Ganesh Reddy KS</h1>
+    <p class="title">MCA Graduate | Full Stack Web Developer | Cybersecurity Enthusiast</p>
+    <p class="meta">Bengaluru · +91 89718 13488 · <a href="mailto:sindhuganeshreddy4@gmail.com">sindhuganeshreddy4@gmail.com</a></p>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/sindhuganeshreddy" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Recent MCA graduate with a strong foundation in software development, cybersecurity, and database management,
+        seeking an entry-level role where I can build secure, scalable applications and contribute to real-world projects.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="grid-2">
+        <div class="card">
+          <div class="subheading">Master of Computer Application</div>
+          <div class="small">Visvesvaraya Institute of Advanced Technology · 2022 – 2024</div>
+        </div>
+        <div class="card">
+          <div class="subheading">Bachelor of Computer Science</div>
+          <div class="small">Bengaluru North University · 2018 – 2022</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="grid-2">
+        <div class="card">
+          <div class="subheading">Technical</div>
+          <span class="tag">Python</span>
+          <span class="tag">Java</span>
+          <span class="tag">C</span>
+          <span class="tag">C++</span>
+          <span class="tag">SQL</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+        </div>
+        <div class="card">
+          <div class="subheading">Domain & Tools</div>
+          <span class="tag">Cybersecurity Operations</span>
+          <span class="tag">SIEM</span>
+          <span class="tag">Firewalls</span>
+          <span class="tag">Network Security</span>
+          <span class="tag">Cloud Security Basics</span>
+        </div>
+        <div class="card">
+          <div class="subheading">Soft Skills</div>
+          <span class="tag">Problem Solving</span>
+          <span class="tag">Analytical Thinking</span>
+          <span class="tag">Team Collaboration</span>
+          <span class="tag">Communication</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="card">
+        <div class="subheading">Full Stack Web Developer Intern</div>
+        <div class="small">Dotch Endeavours Pvt. Ltd · Mysore · Oct 2023 – Dec 2023</div>
+        <ul>
+          <li>Improved website loading speed by optimizing front-end code and database queries using HTML, CSS, JavaScript, PHP, and MySQL.</li>
+          <li>Developed responsive, cross-browser compatible UI that increased mobile user engagement.</li>
+          <li>Built a dynamic content management module that automated data updates and reduced manual work.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid-2">
+        <div class="card">
+          <div class="subheading">Pharmacy Management System</div>
+          <div class="small">Java · MySQL</div>
+          <p>Desktop application to manage medicine inventory, sales, and billing with secure authentication and real-time stock updates.</p>
+        </div>
+        <div class="card">
+          <div class="subheading">Assistive Vision for Blind (IoT)</div>
+          <div class="small">Raspberry Pi · Ultrasonic Sensors</div>
+          <p>Wearable system that detects obstacles and provides real-time audio feedback to assist visually impaired users.</p>
+        </div>
+        <div class="card">
+          <div class="subheading">Fitness Watch Data Analysis</div>
+          <div class="small">Python · Pandas · Matplotlib</div>
+          <p>Analyzed fitness tracker data to identify activity patterns, heart rate trends, and calorie burn for data-driven health insights.</p>
+        </div>
+        <div class="card">
+          <div class="subheading">Hospital Management System</div>
+          <div class="small">Java · MySQL</div>
+          <p>Application for patient registration, appointments, billing, and medical records to reduce manual errors and streamline operations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <div class="card">
+        <ul>
+          <li>Full Stack Web Development</li>
+          <li>Cisco Certified Support Technician – Cybersecurity</li>
+          <li>Privacy and Security in Online Social Media (NPTEL)</li>
+          <li>Cyber Security – Tech Mahindra Foundation (Skill India)</li>
+          <li>NASSCOM – Accenture – SB – i3Qube in Networking and Cybersecurity</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 · Sindhu Ganesh Reddy KS · Portfolio
+  </footer>
+</body>
+</html>
